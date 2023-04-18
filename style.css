@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Tilt Neon', cursive;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #16BFFD, #CB3066);
+  color:darkslategrey;
+}
+
+#logo {
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px 0px 5px white, 1px 5px #191971, -1px 0px 1px black;
+  position: absolute; 
+  top: 2%;
+  left: 7%;
+}
+
+#instructions {
+  overflow-y: scroll;
+  font-size: 33px;
+  color: darkslategrey;
+  text-shadow: -1px 0px 3px white;
+  box-shadow: 0px 6px #126bca;
+  background-color: white;
+  width: 30%;
+  height: 50%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: absolute; 
+  top: 20%;
+  left: 4%;
+}
+
+#optionOne {
+  background-color: white;
+  box-shadow: 0px 6px #126bca;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-top: 3px solid black;
+  width: 30%;
+  height: 47%;
+  position: absolute;
+  left: 37%;
+}
+
+#optionTwo {
+  background-color: white;
+  box-shadow: 0px 6px #126bca;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-top: 3px solid black;
+  width: 30%;
+  height: 47%;
+  position: absolute;
+  left: 68%;
+}
+
+#optionThree {
+  background-color: white;
+  box-shadow: 0px 6px #126bca;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-top: 3px solid black;
+  width: 30%;
+  height: 47%;
+  position: absolute;
+  top: 51%;
+  left: 37%;
+}
+
+#optionFour {
+  background-color: white;
+  box-shadow: 0px 6px #126bca;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-top: 3px solid black;
+  width: 30%;
+  height: 47%;
+  position: absolute;
+  top: 51%;
+  left: 68%;
+}
+
+#resultContainer {
+  display: none;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
+  overflow-y: scroll;
+  box-shadow: 0px 6px #126bca;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-top: 3px solid black;
+  width: 60%;
+  height: 95%;
+  position: absolute;
+  left: 37%;
+}
+
+#suggestion {
+  font-size: 70px;
+  text-align: center;
+  margin: 0px;
+}
+
+#videoOne, #videoTwo, #videoThree, #videoFour {
+  display: none;
+  border: none;
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  position: relative;
+  left: 20%;
+  top: 5%;
+}
+
+#nameOne, #nameTwo, #nameThree, #nameFour {
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+}
+
+#imageOne, #imageTwo, #imageThree, #imageFour {
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  position: relative;
+  left: 20%;
+  top: 5%;
+}
+
+#resultImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  top: 5%;
+}
+
+#optionOne:hover, #optionTwo:hover, #optionThree:hover, #optionFour:hover {
+  border: 3px solid black;
+}
+
+input, button {
+  display: none;
+}
+
+input {
+  box-shadow: 0px 6px #126bca;
+  color: darksteelgray;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  left: 55px;
+}
+
+button {
+  box-shadow: 0px 6px #126bca;
+  color: darksteelgray;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 52px;
+  left: 380px;
+}
